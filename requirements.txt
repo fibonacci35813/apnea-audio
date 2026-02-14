@@ -4,16 +4,3 @@ librosa>=0.10
 soundfile>=0.12
 matplotlib>=3.7
 streamlit>=1.30
-.
-
-# Optional – SAM Audio backend (text-prompted separation)
-# pip install -e ".[sam]"
-# torch>=2.0
-# torchaudio>=2.0
-# audiosep
-
-# Optional – Open-Unmix backend
-# pip install -e ".[neural]"
-# torch>=2.0
-# torchaudio>=2.0
-# openunmix>=1.3

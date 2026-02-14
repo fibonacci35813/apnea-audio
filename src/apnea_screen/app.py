@@ -60,7 +60,7 @@ def main() -> None:
 
     with st.spinner("Running pipeline ... (this may take a while for long recordings)"):
         # Lazy import so Streamlit starts quickly
-        from .pipeline import run_pipeline
+        from apnea_screen.pipeline import run_pipeline
 
         output_dir = "output" if save_output else None
         result = run_pipeline(tmp_path, backend=backend, output_dir=output_dir)
